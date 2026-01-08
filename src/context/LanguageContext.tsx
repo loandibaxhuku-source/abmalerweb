@@ -14,12 +14,11 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguage] = useState<Language>(defaultLanguage);
   const [mounted, setMounted] = useState(false);
 
-  // Load language preference from localStorage on mount
+  // Always use German as default, don't load from localStorage
   useEffect(() => {
-    const savedLanguage = localStorage.getItem('preferredLanguage') as Language;
-    if (savedLanguage && ['en', 'de', 'sq'].includes(savedLanguage)) {
-      setLanguage(savedLanguage);
-    }
+    // Always set to German/default language, clearing any previous preference
+    localStorage.removeItem('preferredLanguage');
+    setLanguage(defaultLanguage);
     setMounted(true);
   }, []);
 
