@@ -28,6 +28,22 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Environment variables
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Setup/Documentation files
+EMAIL_SETUP_GUIDE.md
+PROJECT_SETUP.md
+PHASE_1_COMPLETE.md
+SLIDESHOW_FEATURE.md
+I18N_DOCUMENTATION.md
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)

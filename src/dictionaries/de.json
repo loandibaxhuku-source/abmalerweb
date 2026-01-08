@@ -1,0 +1,113 @@
+{
+  "common": {
+    "company": "A.B Maler Fassadenbau & Gipser GmbH",
+    "companyTagline": "Professionelle Mal-, Fassaden- und Gipsarbeiten",
+    "language": "Sprache"
+  },
+  "navbar": {
+    "home": "Startseite",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "A.B Maler Fassadenbau & Gipser GmbH",
+    "subtitle": "Professionelle Mal-, Fassaden- und Gipsarbeiten",
+    "cta": "Kostenloses Angebot anfordern"
+  },
+  "services": {
+    "heading": "Unsere Dienstleistungen",
+    "maler": {
+      "name": "Maler",
+      "description": "Professionelle Innen- und Außenanstriche mit hoher Sorgfalt und qualitativ hochwertigen Oberflächen."
+    },
+    "fassadenbau": {
+      "name": "Fassadenbau",
+      "description": "Sanierung und Renovierung der Fassade zur Verbesserung des Erscheinungsbildes und der Heizeffizienz Ihres Gebäudes."
+    },
+    "renovationen": {
+      "name": "Renovierungen",
+      "description": "Komplette Renovierungslösungen, maßgeschneidert für Ihre spezifischen Anforderungen und Ihr Budget."
+    },
+    "trockenbau": {
+      "name": "Trockenbau",
+      "description": "Professionelle Trockenbauinstallation und Verarbeitung für moderne Innenräume."
+    },
+    "gipsarbeiten": {
+      "name": "Gipsarbeiten",
+      "description": "Hochwertige Putz- und Verputzarbeiten für Wände und Decken."    },
+    "bodenbelag": {
+      "name": "Bodenbelag",
+      "description": "Professionelle Bodenverlegung einschließlich Kunstharzboden, Epoxydboden, Parkett und Vinyleboden."    }
+  },
+  "about": {
+    "heading": "Über uns",
+    "paragraph1": "Mit über einem Jahrzehnt Erfahrung in der Mal-, Fassaden- und Gipsindustrie ist A.B Maler Fassadenbau & Gipser GmbH Ihr vertrauensvoller Partner für hochwertiges Handwerk.",
+    "paragraph2": "Wir sind stolz auf unsere Sorgfalt, Zuverlässigkeit und Kundenzufriedenheit. Unser erfahrenes Team widmet sich der Verwirklichung Ihrer Vorstellungen."
+  },
+  "cta": {
+    "heading": "Bereit, Ihr Projekt zu starten?",
+    "text": "Kontaktieren Sie uns noch heute für eine kostenlose Beratung und ein Angebot.",
+    "button": "Kontaktieren Sie uns jetzt"
+  },
+  "footer": {
+    "company": "A.B Maler Fassadenbau & Gipser GmbH",
+    "description": "Professionelle Mal-, Fassaden- und Gipsarbeiten mit jahrelanger Erfahrung.",
+    "contactHeading": "Kontakt",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "address": "Adresse",
+    "followUs": "Folgen Sie uns",
+    "privacyPolicy": "Datenschutz",
+    "termsOfService": "Nutzungsbedingungen",
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "form": {
+    "title": "Kostenloses Angebot anfordern",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "service": "Servicetyp",
+    "message": "Projektdetails",
+    "submit": "Angebot anfordern",
+    "success": "Vielen Dank! Wir werden Sie bald kontaktieren.",
+    "placeholder": {
+      "name": "Ihr vollständiger Name",
+      "email": "ihre@email.com",
+      "phone": "+49 (123) 456-7890",
+      "message": "Erzählen Sie uns von Ihrem Projekt..."
+    },
+    "services": [
+      "Innenanstrich",
+      "Außenanstrich",
+      "Fassadenarbeiten",
+      "Trockenbau",
+      "Gipsarbeiten",
+      "Sonstiges"
+    ]
+  },
+  "testimonials": {
+    "heading": "Das sagen unsere Kunden",
+    "description": "Erfahren Sie, was unsere zufriedenen Kunden über unsere Arbeit denken",
+    "submitButton": "Teilen Sie Ihre Erfahrung",
+    "form": {
+      "title": "Teilen Sie Ihre Bewertung",
+      "referenceCode": "Referenzcode",
+      "referenceCodePlaceholder": "Geben Sie Ihren Referenzcode ein",
+      "referenceCodeHint": "Ihr Referenzcode wurde Ihnen mitgeteilt, als Sie uns kontaktierten",
+      "name": "Ihr Name",
+      "namePlaceholder": "Ihr vollständiger Name",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "ihre@email.com",
+      "testimonial": "Ihre Bewertung",
+      "testimonialPlaceholder": "Erzählen Sie uns von Ihrer Erfahrung...",
+      "rating": "Bewertung",
+      "service": "Dienst (Optional)",
+      "submit": "Bewertung absenden",
+      "submitting": "Wird eingereicht...",
+      "success": "Vielen Dank! Ihre Bewertung wurde eingereicht.",
+      "error": "Fehler beim Absenden der Bewertung. Bitte versuchen Sie es erneut.",
+      "invalidReferenceCode": "Bitte geben Sie einen gültigen Referenzcode ein (mindestens 5 Zeichen)"
+    }
+  }
+}
