@@ -31,7 +31,7 @@ export default function Footer() {
               <div className="space-y-3">
                 <div className="flex items-center space-x-2">
                   <Phone size={16} className="text-red-100" />
-                  <span className="text-sm text-red-100">+1 (234) 567-8900</span>
+                  <span className="text-sm text-red-100">+41 79 127 86 08</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail size={16} className="text-red-100" />
@@ -44,7 +44,10 @@ export default function Footer() {
                 </div>
                 <div className="flex items-start space-x-2">
                   <MapPin size={16} className="text-red-100 flex-shrink-0 mt-1" />
-                  <span className="text-sm text-red-100">123 Business Street, City, Country</span>
+                  <div className="text-sm text-red-100">
+                    <div>Im Föhret 2</div>
+                    <div>8962 Bergdietikon</div>
+                  </div>
                 </div>
               </div>
             </div>
