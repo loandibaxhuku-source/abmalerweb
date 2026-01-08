@@ -1,0 +1,115 @@
+{
+  "common": {
+    "company": "A.B Maler Fassadenbau & Gipser GmbH",
+    "companyTagline": "Professional Painting, Facade & Plastering Services",
+    "language": "Language"
+  },
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "A.B Maler Gipser & Fassadenbau GmbH",
+    "subtitle": "Professional Painting & Renovation Services",
+    "cta": "Get a Free Quote"
+  },
+  "services": {
+    "heading": "Our Services",
+    "maler": {
+      "name": "Painter",
+      "description": "Professional interior and exterior painting with attention to detail and quality finishes."
+    },
+    "fassadenbau": {
+      "name": "Facade Work",
+      "description": "Professional facade renovation and restoration to improve your building's appearance and thermal efficiency."
+    },
+    "renovationen": {
+      "name": "Renovation",
+      "description": "Complete renovation solutions tailored to your specific needs and budget."
+    },
+    "trockenbau": {
+      "name": "Drywall",
+      "description": "Professional drywall installation and finishing for modern interior spaces."
+    },
+    "gipsarbeiten": {
+      "name": "Plasterwork",
+      "description": "High-quality plastering and finishing work for walls and ceilings."
+    },
+    "bodenbelag": {
+      "name": "Flooring",
+      "description": "Professional flooring installation including epoxy resin, parquet, and vinyl options."
+    }
+  },
+  "about": {
+    "heading": "About Us",
+    "paragraph1": "With over a decade of experience in the painting, facade, and plastering industry, A.B Maler Fassadenbau & Gipser GmbH is your trusted partner for quality craftsmanship.",
+    "paragraph2": "We pride ourselves on attention to detail, reliability, and customer satisfaction. Our team of skilled professionals is dedicated to bringing your vision to life."
+  },
+  "cta": {
+    "heading": "Ready to Start Your Project?",
+    "text": "Contact us today for a free consultation and quote.",
+    "button": "Contact Us Now"
+  },
+  "footer": {
+    "company": "A.B Maler Fassadenbau & Gipser GmbH",
+    "description": "Professional painting, facade, and plastering services with years of expertise.",
+    "contactHeading": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "followUs": "Follow Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "copyright": "All rights reserved."
+  },
+  "form": {
+    "title": "Get a Free Quote",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "service": "Service Type",
+    "message": "Project Details",
+    "submit": "Request Quote",
+    "success": "Thank you! We will contact you soon.",
+    "placeholder": {
+      "name": "Your full name",
+      "email": "your@email.com",
+      "phone": "+1 (234) 567-8900",
+      "message": "Tell us about your project..."
+    },
+    "services": [
+      "Interior Painting",
+      "Exterior Painting",
+      "Facade Work",
+      "Drywall",
+      "Plasterwork",
+      "Other"
+    ]
+  },
+  "testimonials": {
+    "heading": "What Our Clients Say",
+    "description": "See what our satisfied customers think of our work",
+    "submitButton": "Share Your Experience",
+    "form": {
+      "title": "Share Your Review",
+      "referenceCode": "Reference Code",
+      "referenceCodePlaceholder": "Enter your reference code",
+      "referenceCodeHint": "Your reference code was provided when you contacted us",
+      "name": "Your Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "your@email.com",
+      "testimonial": "Your Review",
+      "testimonialPlaceholder": "Tell us about your experience...",
+      "rating": "Rating",
+      "service": "Service (Optional)",
+      "submit": "Submit Review",
+      "submitting": "Submitting...",
+      "success": "Thank you! Your review has been submitted.",
+      "error": "Failed to submit review. Please try again.",
+      "invalidReferenceCode": "Please enter a valid reference code (at least 5 characters)"
+    }
+  }
+}

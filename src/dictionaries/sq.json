@@ -1,0 +1,115 @@
+{
+  "common": {
+    "company": "A.B Maler Fassadenbau & Gipser GmbH",
+    "companyTagline": "Shërbime Profesionale të Ngjyrosjes, Fassadës dhe Gipsimit",
+    "language": "Gjuha"
+  },
+  "navbar": {
+    "home": "Ballina",
+    "services": "Shërbimet",
+    "about": "Rreth nesh",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "A.B Maler Fassadenbau & Gipser GmbH",
+    "subtitle": "Shërbimet Profesionale të Ngjyrosjes, Fassadës dhe Gipsimit",
+    "cta": "Merrni një Kuotë Falas"
+  },
+  "services": {
+    "heading": "Shërbimet Tona",
+    "maler": {
+      "name": "Ngjyrosje",
+      "description": "Ngjyrosja profesionale e brendshme dhe të jashtme me vëmendje ndaj detajit dhe përfundim cilësor."
+    },
+    "fassadenbau": {
+      "name": "Puna e Fasadës",
+      "description": "Sanacija dhe rinovim i fasadës për të përmirësuar pamjen dhe efikasitetin termik të ndërtesës tuaj."
+    },
+    "renovationen": {
+      "name": "Rinovim",
+      "description": "Zgjidhjet e plota të rinovimit të përshtatura me nevojat dhe buxhetin tuaj."
+    },
+    "trockenbau": {
+      "name": "Gipsim",
+      "description": "Instalim dhe përfundim profesional i murit të thatë për hapësirat e brendshme moderne."
+    },
+    "gipsarbeiten": {
+      "name": "Punë me allçi",
+      "description": "Puna cilësore e stukimit dhe allçimit për muret dhe tavanin."
+    },
+    "bodenbelag": {
+      "name": "Dysheme",
+      "description": "Instalim profesional i dyshemesë duke përfshirë dyshemenë e dehzarit, epoksit, parqué dhe vinili."
+    }
+  },
+  "about": {
+    "heading": "Rreth Nesh",
+    "paragraph1": "Me më shumë se një dekadë përvoje në industrinë e ngjyrosjes, fassadës dhe gipsimit, A.B Maler Fassadenbau & Gipser GmbH është partneri juaj i besuar për punën me cilësi.",
+    "paragraph2": "Ne jemi krenar për vëmendjen ndaj detajit, besueshmërinë dhe përmbushjen e klientit. Ekipi ynë me përvojë shumëvjeçare është i dedikuar për të realizuar vizionin tuaj."
+  },
+  "cta": {
+    "heading": "Gati të Filloni Projektin Tuaj?",
+    "text": "Kontaktoni ne sot për konsultim falas dhe kuotë.",
+    "button": "Kontaktoni Ne Tani"
+  },
+  "footer": {
+    "company": "A.B Maler Fassadenbau & Gipser GmbH",
+    "description": "Shërbime profesionale të ngjyrosjes, fassadës dhe gipsimit me përvojë shumëvjeçare.",
+    "contactHeading": "Kontakt",
+    "phone": "Telefoni",
+    "email": "Email",
+    "address": "Adresa",
+    "followUs": "Na Ndiqni",
+    "privacyPolicy": "Politika e Privatësisë",
+    "termsOfService": "Kushtet e Shërbimit",
+    "copyright": "Të gjitha të drejtat e rezervuara."
+  },
+  "form": {
+    "title": "Merrni një Kuotë Falas",
+    "name": "Emri i Plotë",
+    "email": "Adresa Email",
+    "phone": "Numri i Telefonit",
+    "service": "Lloji i Shërbimit",
+    "message": "Detalet e Projektit",
+    "submit": "Kërkoni Kuotë",
+    "success": "Faleminderit! Do të ju kontaktojmë shpejt.",
+    "placeholder": {
+      "name": "Emri juaj i plotë",
+      "email": "juaj@email.com",
+      "phone": "+355 (XX) XXX-XXXX",
+      "message": "Tregojuni për projektin tuaj..."
+    },
+    "services": [
+      "Ngjyrosja e Brendshme",
+      "Ngjyrosja e Jashtme",
+      "Puna e Fasadës",
+      "Gipsim",
+      "Punë me allçi",
+      "Tjera"
+    ]
+  },
+  "testimonials": {
+    "heading": "Çfarë Thonë Klientët Tanë",
+    "description": "Shikoni se çfarë mendojnë klientët tanë të kënaqur për punën tonë",
+    "submitButton": "Ndani Përvojën Tuaj",
+    "form": {
+      "title": "Ndani Vlerësimin Tuaj",
+      "referenceCode": "Kodi i Referencës",
+      "referenceCodePlaceholder": "Futni kodin tuaj të referencës",
+      "referenceCodeHint": "Kodi juaj i referencës u dha kur na kontaktuat",
+      "name": "Emri Juaj",
+      "namePlaceholder": "Emri juaj i plotë",
+      "email": "Adresa Email",
+      "emailPlaceholder": "juaj@email.com",
+      "testimonial": "Vlerësimi Juaj",
+      "testimonialPlaceholder": "Tregojuni për përvojën tuaj...",
+      "rating": "Vlerësim",
+      "service": "Shërbimi (Opsional)",
+      "submit": "Dorëzo Vlerësimin",
+      "submitting": "Po dërgohet...",
+      "success": "Faleminderit! Vlerësimi juaj është dorëzuar.",
+      "error": "Gabim gjatë dorëzimit të vlerësimit. Ju lutemi provoni përsëri.",
+      "invalidReferenceCode": "Ju lutemi futni një kod referencë të vlefshëm (të paktën 5 karaktere)"
+    }
+  }
+}

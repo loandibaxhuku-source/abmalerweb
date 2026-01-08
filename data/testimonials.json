@@ -1,0 +1,20 @@
+{
+  "testimonials": [
+    {
+      "id": "test-1",
+      "name": "Maria Schmidt",
+      "testimonial": "Excellent work! The team was professional and thorough. Highly recommend their services.",
+      "rating": 5,
+      "service": "maler",
+      "createdAt": "2024-12-20"
+    },
+    {
+      "id": "testimonial-1767825093055-249v0gc1g",
+      "name": "John Henry",
+      "testimonial": "Great job!",
+      "rating": 5,
+      "service": "fassadenbau",
+      "createdAt": "2026-01-07"
+    }
+  ]
+}
