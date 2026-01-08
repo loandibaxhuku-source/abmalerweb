@@ -1,29 +1,31 @@
 'use client';
 
 import { createContext, useContext, useState, useEffect, ReactNode } from 'react';
-import { Language, defaultLanguage } from '@/i18n/config';
+import { Language } from '@/i18n/config';
 
 interface LanguageContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
 }
 
+const FORCED_LANGUAGE: Language = 'de'; // Force German always
+
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>(defaultLanguage);
+  const [language, setLanguage] = useState<Language>(FORCED_LANGUAGE);
   const [mounted, setMounted] = useState(false);
 
-  // Always use German as default, don't load from localStorage
+  // Force German on mount and ignore any preferences
   useEffect(() => {
-    // Always set to German/default language, clearing any previous preference
-    localStorage.removeItem('preferredLanguage');
-    setLanguage(defaultLanguage);
+    localStorage.clear(); // Clear all localStorage
+    setLanguage(FORCED_LANGUAGE);
     setMounted(true);
   }, []);
 
   const handleSetLanguage = (newLanguage: Language) => {
     setLanguage(newLanguage);
+    // Optionally store preference, but always start with German
     localStorage.setItem('preferredLanguage', newLanguage);
   };
 
@@ -37,8 +39,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
 export function useLanguage() {
   const context = useContext(LanguageContext);
   if (context === undefined) {
-    // Return default language during SSR/build time
-    return { language: defaultLanguage, setLanguage: () => {} };
+    return { language: FORCED_LANGUAGE, setLanguage: () => {} };
   }
   return context;
 }
